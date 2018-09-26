@@ -5,6 +5,10 @@
 - 기획서를 어떻게 만들어야 하는지 가이드를 작성합니다.
 - 다양한 기획서를 만들고 기록합니다.
 
+# 목차
+1. AquaStory-SundayToz
+  - SundayToz사의 아쿠아스토리 역 기획서입니다.
+
 # Contact
-장호진 jhj377@gmail.com 
+장호진 jhj377@gmail.com
 010-7142-3834
