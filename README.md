@@ -6,7 +6,7 @@
 - 다양한 기획서를 만들고 기록합니다.
 
 # 목차
-1. AquaStory-SundayToz
+1. AquaStory-SundayToz [(링크)](https://github.com/hojin-kr/Design-Book/tree/master/AquaStory-SundayToz)
   - SundayToz사의 아쿠아스토리 역 기획서입니다.
 
 # Contact
