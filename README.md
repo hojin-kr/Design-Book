@@ -8,6 +8,9 @@
 # 목차
 1. AquaStory-SundayToz [(링크)](https://github.com/hojin-kr/Design-Book/tree/master/AquaStory-SundayToz)
   - SundayToz사의 아쿠아스토리 역 기획서입니다.
+2. Idea-Book
+  - 다양한 아이디어를 정리합니다.
+
 
 # Contact
 장호진 jhj377@gmail.com
