@@ -36,7 +36,7 @@ Prologue이후 아카데미로 자동 진입하는데 아카데미가 게임 진
   - 신뢰도 (심판에 대한 외부 평가 미치는 영향도)
 
 ## 씬의 예상 흐름도
-
+![씬-흐름도](https://github.com/hojin-kr/Design-Book/blob/master/Baseball-Referee/img/%EC%94%AC-%ED%9D%90%EB%A6%84%EB%8F%84.png?raw=true)
 
 
 ## 스토리(연대기)
