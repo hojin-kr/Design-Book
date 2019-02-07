@@ -12,7 +12,7 @@
   - 다양한 아이디어를 정리합니다.
 3. audiobook
   - 오디오북 제작 오픈 플랫폼 제안서 및 와이어프레임
-  - 웹 프로토타입 [(링크)](https://github.com/hojin-kr/Design-Book/blob/master/audiobook/prototype/web/index.html)
+  - 웹 프로토타입 [(링크)](https://hojin-kr.github.io/Design-Book/audiobook/prototype/web/index.html)
 
 # Contact
 장호진 jhj377@gmail.com
