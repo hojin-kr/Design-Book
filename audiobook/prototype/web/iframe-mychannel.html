@@ -3,24 +3,44 @@
   <head>
     <meta charset="utf-8">
     <!-- 합쳐지고 최소화된 최신 CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-<!-- 부가적인 테마 -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
-<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
   </head>
   <body>
+    <script type="text/javascript">
+      //부모 문서의 id가 article-iframe인 요소의 src속성을 바꿔서 페이지를 바꿈
+      function articlePageReLoad(selectMenu){
+        if(selectMenu == 0){
+          parent.document.getElementById("article-iframe").src = "iframe-channel-management.html";
+        }
+        else if(selectMenu == 1){
+          parent.document.getElementById("article-iframe").src = "editor.html";
+        }
+        else if(selectMenu == 2){
+          parent.document.getElementById("article-iframe").src = "iframe-channel-management.html";
+        }
+        else if(selectMenu == 3){
+          parent.document.getElementById("article-iframe").src = "iframe-channel-management.html";
+        }
+        else if(selectMenu == 4){
+          parent.document.getElementById("article-iframe").src = "iframe-channel-management.html";
+        }
+              }
+    </script>
     <table class="table table-hover">
-      <tr>
+      <tr onclick="articlePageReLoad(0)">
         <td>채널 관리</td>
       </tr>
-      <tr>
+      <tr onclick="articlePageReLoad(1)">
         <td>글 작성</td>
       </tr>
-      <tr>
+      <tr onclick="articlePageReLoad(2)">
         <td>글 관리</td>
       </tr>
       <tr>
