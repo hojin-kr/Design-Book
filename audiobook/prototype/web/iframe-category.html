@@ -10,11 +10,33 @@
 
 <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   </head>
   <body>
+    <script type="text/javascript">
+      //부모 문서의 id가 article-iframe인 요소의 src속성을 바꿔서 페이지를 바꿈
+      function articlePageReLoad(selectMenu){
+        switch(selectMenu){
+          case 0:
+          parent.document.getElementById("article-iframe").src = "iframe-category-all.html";
+          break;
+          case 1:
+          parent.document.getElementById("article-iframe").src = "editor.html";
+          break;
+          case 2:
+          parent.document.getElementById("article-iframe").src = "iframe-channel-management.html";
+          break;
+          case 3:
+          parent.document.getElementById("article-iframe").src = "iframe-channel-management.html";
+          break;
+          case 4:
+          parent.document.getElementById("article-iframe").src = "iframe-channel-management.html";
+          break;
+        }
+              }
+    </script>
     <table class="table table-hover">
-      <tr>
+      <tr onclick="articlePageReLoad(0)">
         <td>전체</td>
       </tr>
       <tr>
