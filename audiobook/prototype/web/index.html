@@ -11,6 +11,8 @@
     <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
     <title>오디오북 오픈 플랫폼</title>
     <style media="screen">
       html{
@@ -21,7 +23,10 @@
       body{
         margin: 0px auto;
         width: 1280px;
+        font-family: 'Nanum Gothic', sans-serif;
       }
+    
+    
       /*메뉴 스타일*/
       menu{
         width: auto;
@@ -31,6 +36,15 @@
         padding-left: 0px;
         display: flex;
       }
+    /*사이트 컨셉 색상 리빙코랄 #FF6D70*/
+    a:hover{
+        text-decoration: none;
+        color: #FF6D70;
+        transition: 0.4s;
+    }
+    a{
+        color: black;
+    }
       menu .menu1{
         padding-left: 200px;
       }
@@ -61,7 +75,7 @@
     <menu>
         <a href="index.html"><div class="main-logo">
           <img src="img/audiobook.png" alt="" style="width:50px; padding: 5px; margin-left:10px;">
-          Audiobook Open Platform
+          오디오북 오픈 플랫폼
         </div></a>
         <span class="search">
           <form class="navbar-form navbar-left" role="search">
